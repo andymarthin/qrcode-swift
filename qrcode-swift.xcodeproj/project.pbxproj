@@ -13,6 +13,8 @@
 		011AC5281F18C1B2004BC525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011AC5271F18C1B2004BC525 /* Assets.xcassets */; };
 		011AC52B1F18C1B2004BC525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011AC5291F18C1B2004BC525 /* LaunchScreen.storyboard */; };
 		011AC5361F18C1B2004BC525 /* qrcode_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011AC5351F18C1B2004BC525 /* qrcode_swiftTests.swift */; };
+		011AC5411F18C6F3004BC525 /* ViewGenerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011AC5401F18C6F3004BC525 /* ViewGenerate.swift */; };
+		011AC5431F18C702004BC525 /* ViewScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011AC5421F18C702004BC525 /* ViewScan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		011AC5311F18C1B2004BC525 /* qrcode-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "qrcode-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		011AC5351F18C1B2004BC525 /* qrcode_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrcode_swiftTests.swift; sourceTree = "<group>"; };
 		011AC5371F18C1B2004BC525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011AC5401F18C6F3004BC525 /* ViewGenerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewGenerate.swift; sourceTree = "<group>"; };
+		011AC5421F18C702004BC525 /* ViewScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewScan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				011AC5271F18C1B2004BC525 /* Assets.xcassets */,
 				011AC5291F18C1B2004BC525 /* LaunchScreen.storyboard */,
 				011AC52C1F18C1B2004BC525 /* Info.plist */,
+				011AC5401F18C6F3004BC525 /* ViewGenerate.swift */,
+				011AC5421F18C702004BC525 /* ViewScan.swift */,
 			);
 			path = "qrcode-swift";
 			sourceTree = "<group>";
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				011AC5231F18C1B2004BC525 /* ViewController.swift in Sources */,
+				011AC5431F18C702004BC525 /* ViewScan.swift in Sources */,
+				011AC5411F18C6F3004BC525 /* ViewGenerate.swift in Sources */,
 				011AC5211F18C1B2004BC525 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
