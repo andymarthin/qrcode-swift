@@ -28,7 +28,7 @@ class ViewGenerate: ViewController {
         
         if let filter = CIFilter(name: "CIQRCodeGenerator"){
             filter.setValue(data, forKey: "inputMessage")
-            let transform = CGAffineTransform(scaleX: 2, y: 2)
+            let transform = CGAffineTransform(scaleX: 100, y: 100)
             
             if let output = filter.outputImage?.applying(transform){
                 return UIImage(ciImage: output)
